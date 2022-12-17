@@ -1,0 +1,18 @@
+<div *ngIf="isLoading">
+  <h1>Loading...</h1>
+</div>
+
+<ng-container *ngIf="!isLoading">
+  <div *ngFor="let lesson of lessons">
+    <div>
+      <h3>{{lesson.title}}</h3>
+      <div>
+        <h3>weekGrades
+          <div *ngFor="let grade of lesson.weekGrades">
+            {{grade.gradeItem}}
+          </div>
+        </h3>
+      </div>
+    </div>
+  </div>
+</ng-container>
