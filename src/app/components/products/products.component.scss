@@ -14,8 +14,13 @@
 
 .button {
     margin-right: 5px;
+    background-color: #424242;
 }
 
 .image {
     max-width: 300px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
 }

@@ -8,33 +8,33 @@
       "images": "assets/images/macbook.jpeg",
       "configure": {
         "chip": "M1",
-        "ssd": "255 GB",
+        "ssd": "512 GB",
         "memory": "8 Gb",
         "display": "Retina"
       }
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "MacBook Pro (Intel)",
       "price": 1000,
       "year": "2020",
       "images": "assets/images/macbook.jpeg",
       "configure": {
         "chip": "Intel",
-        "ssd": "255 GB",
+        "ssd": "256 GB",
         "memory": "16 Gb",
         "display": "Retina"
       }
     },
     {
-      "id": 1,
+      "id": 3,
       "title": "MacBook Pro",
       "price": 1300,
       "year": "2019",
       "images": "assets/images/macbook.jpeg",
       "configure": {
         "chip": "M1",
-        "ssd": "255 GB",
+        "ssd": "128 GB",
         "memory": "16 Gb",
         "display": "Retina"
       }

@@ -10,6 +10,6 @@ export interface IProducts {
 export interface IProductsConfig {
   chip: string;
   ssd: string;
-  memoty: string;
+  memory: string;
   display: string;
 }

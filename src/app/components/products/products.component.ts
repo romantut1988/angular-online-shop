@@ -12,9 +12,14 @@ export class ProductsComponent implements OnInit {
   products: IProducts[];
   productsSubcription: Subscription;
 
+  canEdit: boolean = false;
+  canView: boolean = false;
+
   constructor(private ProductsService: ProductsService) {}
 
   ngOnInit(): void {
+    this.canEdit = true;
+
     this.productsSubcription = this.ProductsService.getProducts().subscribe(
       (data) => {
         this.products = data;
