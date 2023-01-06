@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-online-shop": {
+    "angulaaaa": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-online-shop",
+            "outputPath": "dist/angulaaaa",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -30,7 +30,6 @@
               "src/assets"
             ],
             "styles": [
-              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -66,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-online-shop:build:production"
+              "browserTarget": "angulaaaa:build:production"
             },
             "development": {
-              "browserTarget": "angular-online-shop:build:development"
+              "browserTarget": "angulaaaa:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-online-shop:build"
+            "browserTarget": "angulaaaa:build"
           }
         },
         "test": {
@@ -94,7 +93,6 @@
               "src/assets"
             ],
             "styles": [
-              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.scss"
             ],
             "scripts": []
