@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./date.component.scss'],
 })
 export class DateComponent {
-  text: string = 'Hello World';
+  visibility: boolean = true;
+  toggle() {
+    this.visibility = !this.visibility
+  }
   constructor() {}
 }
