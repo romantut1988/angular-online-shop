@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-date',
@@ -6,6 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./date.component.scss'],
 })
 export class DateComponent {
-  message: string = 'Hello World';
+  text: string = 'Hello World';
   constructor() {}
 }
